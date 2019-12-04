@@ -41,4 +41,5 @@ members = [
   "websocket-chat-broker",
   "websocket-tcp-chat",
   "loger-demo",
+  "syslog-demo",
 ]
