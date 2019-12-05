@@ -22,7 +22,7 @@ extern crate syslog;
 extern crate log;
 
 use syslog::{Facility, Formatter3164, BasicLogger};
-use log::{SetLoggerError, LevelFilter};
+use log::{LevelFilter};
 
 fn main() {
     let formatter = Formatter3164 {

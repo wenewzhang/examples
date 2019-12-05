@@ -42,4 +42,5 @@ members = [
   "websocket-tcp-chat",
   "loger-demo",
   "syslog-demo",
+  "loger-to-file",
 ]
