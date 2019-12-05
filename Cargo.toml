@@ -43,4 +43,5 @@ members = [
   "loger-demo",
   "syslog-demo",
   "loger-to-file",
+  "loger-yaml",
 ]
