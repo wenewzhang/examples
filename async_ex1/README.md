@@ -16,4 +16,8 @@ Actix-web features illustrated here include:
 
 
 Example query from the command line using httpie:
-	```echo '{"id":"1", "name": "JohnDoe"}' | http 127.0.0.1:8080/something```
+```bash
+curl -X POST -H 'Content-Type: application/json' -i 'http://127.0.0.1:8080/something' --data '{"id":"1",
+"name":"JohnDoe"
+}'
+```
