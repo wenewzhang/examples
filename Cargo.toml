@@ -45,4 +45,5 @@ members = [
   "loger-to-file",
   "loger-yaml",
   "result-option-demo",
+  "map-err-demo",
 ]
