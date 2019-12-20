@@ -46,4 +46,5 @@ members = [
   "loger-yaml",
   "result-option-demo",
   "map-err-demo",
+  "future_ex1",
 ]
