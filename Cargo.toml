@@ -49,4 +49,6 @@ members = [
   "future_ex1",
   "thread_local",
   "thread_local2",
+  "arc_mutex_across_threads",
+  "arc_mutex_channel",
 ]
