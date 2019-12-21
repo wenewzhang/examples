@@ -51,4 +51,6 @@ members = [
   "thread_local2",
   "arc_mutex_across_threads",
   "arc_mutex_channel",
+  "panic_demo",
+  "lazy_static-demo",
 ]
