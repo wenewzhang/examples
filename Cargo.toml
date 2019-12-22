@@ -47,6 +47,8 @@ members = [
   "result-option-demo",
   "map-err-demo",
   "future_ex1",
+  "future_ex2",
+  "future_ex3",
   "thread_local",
   "thread_local2",
   "thread_local3",

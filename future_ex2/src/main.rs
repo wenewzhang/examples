@@ -66,6 +66,24 @@ impl Future for MyFuture {
     }
 }
 
+struct AddOneFuture<T>(T);
+
+impl<T> Future for AddOneFuture<T>
+where
+    T: Future,
+    T::Output: std::ops::Add<i32, Output = i32>,
+{
+    type Output = i32;
+
+    fn poll(&mut self, ctx: &Context) -> Poll<Self::Output> {
+        info!("AddOneFuture poll");
+        match self.0.poll(ctx) {
+            Poll::Ready(count) => Poll::Ready(count + 1),
+            Poll::Pending => Poll::Pending,
+        }
+    }
+}
+
 fn run<F>(mut f: F) -> F::Output
 where
     F: Future,
@@ -87,5 +105,5 @@ where
 fn main() {
     env_logger::init();
     let my_future = MyFuture::default();
-    println!("Output: {}", run(my_future));
+    println!("Output: {}", run(AddOneFuture(my_future)));
 }
