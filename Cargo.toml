@@ -57,4 +57,5 @@ members = [
   "panic_demo",
   "lazy_static-demo",
   "fn-once-demo",
+  "fnmut-demo",
 ]
