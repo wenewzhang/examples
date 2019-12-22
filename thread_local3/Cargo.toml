@@ -1,5 +1,5 @@
 [package]
-name = "thread_local2"
+name = "thread_local3"
 version = "0.1.0"
 authors = ["wenewzhang <wenewboy@gmail.com>"]
 edition = "2018"

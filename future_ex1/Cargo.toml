@@ -9,3 +9,6 @@ edition = "2018"
 [dependencies]
 futures = "0.3"
 future-by-example = "0.1.0"
+
+log = "0.4.8"
+env_logger = "0.7.1"
