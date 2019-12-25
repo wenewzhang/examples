@@ -58,4 +58,5 @@ members = [
   "lazy_static-demo",
   "fn-once-demo",
   "fnmut-demo",
+  "rand-demo",
 ]
