@@ -59,4 +59,5 @@ members = [
   "fn-once-demo",
   "fnmut-demo",
   "rand-demo",
+  "diverging-demo",
 ]
