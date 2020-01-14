@@ -14,6 +14,7 @@ fn main() {
     if utc2 > utc {
         println!("Yes great than!")
     }
+    println!("{}",utc.timestamp());
 
     let utc4 =  Utc::now().date();
     println!("{}",utc4);
@@ -23,6 +24,9 @@ fn main() {
 
     let tms_now = Utc::now().timestamp();
     println!("tmps: {}",tms_now);
+
+    let days =  Utc::now().timestamp() / (24*60*60);
+    println!("days:{}", days);
 
     let tms_now2 = tms_now + 1*24*60*60;
 

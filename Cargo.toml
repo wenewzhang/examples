@@ -61,4 +61,5 @@ members = [
   "rand-demo",
   "diverging-demo",
   "chrono-demo",
+  "str-demo",
 ]
